@@ -27,6 +27,7 @@ build-backend = "poetry.core.masonry.api"
 # fastapi = "src.fastapi_di_sample.app:main"
 
 [tool.taskipy.tasks]
-fastapi = {cmd = "uvicorn src.fastapi_di_sample.app:app --port 8000 --env-file .env --reload --reload-dir ./",  help = "Launch test server"}
+fastapi = {cmd = "uvicorn src.fastapi_di_sample.app:app --port 8000 --env-file .env --reload --reload-dir ./", help = "Launch test server"}
+test = { cmd = "pytest tests", help = "Run all unit tests" }
 flake8 = {cmd = "flake8 src tests"}
 mypy = {cmd = "mypy src tests"}
