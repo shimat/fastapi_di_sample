@@ -41,7 +41,7 @@ is_ok
 
 ### Test
 ```
-poetry run pytest
+task pytest
 ```
 
 ### Linters
