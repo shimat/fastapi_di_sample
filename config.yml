@@ -1,0 +1,5 @@
+hoge:
+  piyo: 10
+fuga:
+  foo: "String"
+  bar: false
