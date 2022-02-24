@@ -1,5 +1,5 @@
 # fastapi_di_sample
-FastAPI + Dependency Injector code samples
+[FastAPI](https://fastapi.tiangolo.com/) + [Dependency Injector](https://python-dependency-injector.ets-labs.org/) code samples
 
 ## Installation
 ```
