@@ -41,7 +41,7 @@ is_ok
 
 ### Test
 ```
-task pytest
+task test
 ```
 
 ### Linters
