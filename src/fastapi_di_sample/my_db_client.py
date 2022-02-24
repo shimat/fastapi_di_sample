@@ -11,7 +11,7 @@ class IMyDbClient(Protocol):
         pass
 
 
-class MyDbClient(IMyDbClient):
+class MyDbClient:
     def __init__(self) -> None:
         # heavy data acquisition process
         print("client init started")
